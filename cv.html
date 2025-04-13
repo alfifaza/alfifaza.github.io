@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="CV AELPI.">
+  <title>CV-alpi</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: url('foto7.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      color: #111;
+      backdrop-filter: brightness(95%) blur(3px);
+    }
+
+    header {
+      background: rgba(250, 204, 21, 0.9);
+      padding: 30px 20px 60px;
+      text-align: center;
+      color: #111;
+      position: relative;
+    }
+
+    .header-buttons {
+      position: relative;
+      height: 0;
+    }
+
+    .btn-home, .btn-contact {
+      position: absolute;
+      top: 20px;
+      background: #facc15;
+      color: #111;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    .btn-home:hover {
+      background: #eab308;
+    }
+
+    .btn-contact {
+      right: 20px;
+      background: #2563eb;
+      color: #fff;
+    }
+
+    .btn-contact:hover {
+      background: #1d4ed8;
+    }
+
+    .btn-home {
+      left: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 18px;
+      font-style: italic;
+      margin: 10px 0;
+    }
+
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-3px);
+    }
+
+    .section h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #facc15;
+      display: inline-block;
+      padding-bottom: 5px;
+      color: #eab308;
+    }
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item h3 {
+      margin: 0;
+      font-size: 20px;
+      color: #0f172a;
+    }
+
+    .item p {
+      margin: 4px 0 8px;
+    }
+
+    .highlight {
+      color: #2563eb;
+      font-weight: 600;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1e3a8a;
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 14px;
+      margin: 4px 4px 4px 0;
+    }
+
+    footer {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    a {
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 28px;
+      }
+      header p {
+        font-size: 16px;
+      }
+      .btn-home, .btn-contact {
+        font-size: 12px;
+        padding: 8px 12px;
+      }
+      .section {
+        padding: 20px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="header-buttons">
+      <a href="index.html" class="btn-home" aria-label="Back to Home">Back to Home</a>
+      <a href="contact.html" class="btn-contact" aria-label="Go to Contact">Go to Contact</a>
+    </div>
+    <h1>Alfiyah Faza Ilyana</h1>
+    <p>Web Enthusiast | UI/UX Explorer | Future Tech Developer ⚡</p>
+  </header>
+
+  <section class="section" id="education">
+    <h2>🎓 Education</h2>
+    <div class="item">
+      <h3>SD Negeri 1 Jungpasir</h3>
+      <p class="highlight">Siswa OSN IPA</p>
+      <p>2011 - 2017</p>
+    </div>
+    <div class="item">
+      <h3>MTs Bandar Alim</h3>
+      <p class="highlight">Siswa OSN BIOLOGI</p>
+      <p>2017 - 2020</p>
+    </div>
+    <div class="item">
+      <h3>SMA Negeri 1 Welahan</h3>
+      <p class="highlight">Siswa POPDA BASKETBALL</p>
+      <p>2020 - 2023</p>
+    </div>
+    <div class="item">
+      <h3>Institut Teknologi PLN</h3>
+      <p class="highlight">Mahasiswa Sistem Informasi</p>
+      <p>2023 - Present</p>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <h2>💼 Work Experience</h2>
+    <div class="item">
+      <h3>OSIS SMANELA</h3>
+      <p class="highlight">Financial Department | 2023</p>
+      <p>Manage budgets and oversee financial planning and financial analysis.</p>
+    </div>
+    <div class="item">
+      <h3>PERFECTA SMANELA</h3>
+      <p class="highlight">Event Coordinator | 2023</p>
+      <p>Manages events planning and execution, ensuring a smooth, memorable experience.</p>
+    </div>
+    <div class="item">
+      <h3>MIGOS BASKETBALL</h3>
+      <p class="highlight">Security Department | 2022 - 2023</p>
+      <p>Ensuring a safe, visually appealing environment for participants.</p>
+    </div>
+    <div class="item">
+      <h3>PEMIRA - Creative Division</h3>
+      <p class="highlight">ITPLN Event Committee | 2023</p>
+      <p>Designed digital posters, coordinated media publication, and contributed to campaign strategy for university events.</p>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <h2>🧪 Projects</h2>
+    <div class="item">
+      <h3>Digital Medical Service System for Public Health Centers</h3>
+      <p><span class="tag">HTML</span> <span class="tag">Database</span> <span class="tag">System Analysis</span></p>
+      <p>Led the development of a prototype for an online health registration and service system integrated with local Puskesmas workflows.</p>
+    </div>
+    <div class="item">
+      <h3>Personal Website + CV</h3>
+      <p><span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span></p>
+      <p>Designed and deployed a personal portfolio website showcasing biography, skills, projects, and contact details with GitHub Pages.</p>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>📬 Contact</h2>
+    <div class="item">
+      <p><strong>Email:</strong> <a href="mailto:alfiyahfaza7@gmail.com" target="_blank">alfiyahfaza7@gmail.com</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/alfyyfzll" target="_blank">@alfyyfzll</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/alfifaza" target="_blank">github.com/alfifaza</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Aelpi
+  </footer>
+</body>
+</html>
